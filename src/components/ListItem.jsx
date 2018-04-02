@@ -4,8 +4,8 @@ var ListItem = React.createClass({
       return (
         <li>
            <h4>{this.props.ingredient}</h4>
-	</li>
-	); 
+	      </li>
+	     );
    }
 });
 

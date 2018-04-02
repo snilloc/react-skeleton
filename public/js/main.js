@@ -18058,8 +18058,6 @@ if (process.env.NODE_ENV === 'production') {
 }).call(this,require('_process'))
 },{"./cjs/react.development.js":24,"./cjs/react.production.min.js":25,"_process":18}],27:[function(require,module,exports){
 var React = require('react');
-
-// None Npm modules
 var ListItem = require('./ListItem.jsx');
 
 var ingredients = [{ "id": 1, "text": "ham" }, { "id": 3, "text": "cheese" }, { "id": 4, "text": "potatoes" }];
@@ -18105,11 +18103,8 @@ var ListItem = React.createClass({
 module.exports = ListItem;
 
 },{"react":26}],29:[function(require,module,exports){
-// React main entry point for the application
-
 var React = require('react');
 var ReactDOM = require('react-dom');
-
 var List = require('./components/List.jsx');
 
 ReactDOM.render(React.createElement(List, null), document.getElementById('ingredients'));

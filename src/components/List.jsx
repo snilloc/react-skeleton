@@ -1,6 +1,4 @@
 var React = require('react');
-
-// None Npm modules
 var ListItem = require('./ListItem.jsx');
 
 var ingredients = [{"id":1, "text":"ham"}, {"id":3, "text":"cheese"}, {"id":4, "text":"potatoes"}];
